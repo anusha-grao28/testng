@@ -5,6 +5,22 @@ public class Address {
 	private String pinCode;
 	private String state;
 	private String town;
+private String fristLine;
+
+	public String getFristLine() {
+		return fristLine;
+	}
+
+	public void setFristLine(String fristLine) {
+		this.fristLine = fristLine;
+	}
+
+	public Address(String pinCode, String state, String town, String fristLine) {sssss
+		this.pinCode = pinCode;
+		this.state = state;
+		this.town = town;
+		this.fristLine = fristLine;
+	}
 
 	public String getState() {
 		return state;
